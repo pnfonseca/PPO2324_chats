@@ -1,0 +1,3 @@
+/home/pf/Trabalho/Aulas/PPO/PPO_23-24/PPO_23-24_PF/Aulas/FP_02_chat/cmake-build-debug/CMakeFiles/FP_02_chat.dir
+/home/pf/Trabalho/Aulas/PPO/PPO_23-24/PPO_23-24_PF/Aulas/FP_02_chat/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pf/Trabalho/Aulas/PPO/PPO_23-24/PPO_23-24_PF/Aulas/FP_02_chat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
