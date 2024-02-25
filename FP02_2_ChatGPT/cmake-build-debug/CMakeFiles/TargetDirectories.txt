@@ -1,3 +1,0 @@
-/home/pf/Trabalho/Aulas/PPO/PPO_23-24/PPO_23-24_PF/Aulas/FP02_2_ChatGPT/cmake-build-debug/CMakeFiles/GeometricFigures.dir
-/home/pf/Trabalho/Aulas/PPO/PPO_23-24/PPO_23-24_PF/Aulas/FP02_2_ChatGPT/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/pf/Trabalho/Aulas/PPO/PPO_23-24/PPO_23-24_PF/Aulas/FP02_2_ChatGPT/cmake-build-debug/CMakeFiles/rebuild_cache.dir

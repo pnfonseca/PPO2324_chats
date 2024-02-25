@@ -48,4 +48,21 @@ private:
 
 ## Problema 2
 
+ChatGPT: <https://chat.openai.com/share/08f34121-00d9-48e7-9ea8-32a5c3b08cb8>
+Gemini: <https://g.co/gemini/share/be38e30e6cd4>
+
 Código gerado originalmente pelo Gemini tem falhas
+`multiple definition of main`. A origem está na CMakeLists.txt gerada pelo Gemini ter o comando `file(GLOB_RECURSE SOURCES *.cpp)`, que inclui na lista de ficheiros o projeto ficheiros `.cpp` que estão nas pastas criadas pelo CMake: 
+```bash
+$ find . -iname \*.cpp
+./main.cpp
+./Point.cpp
+./Shape.cpp
+./Circle.cpp
+./Rectangle.cpp
+./Square.cpp
+./cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp
+./build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+```
+
+Após retirar o `RECURSE` a CMakeLists.txt já funciona.

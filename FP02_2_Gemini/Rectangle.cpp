@@ -9,6 +9,6 @@ double Rectangle::getHeight() const { return height; }
 void Rectangle::setWidth(double width) { this->width = width; }
 void Rectangle::setHeight(double height) { this->height = height; }
 
-double Rectangle::getArea() const override { return width * height; }
+double Rectangle::getArea() const  { return width * height; }
 
-double Rectangle::getPerimeter() const override { return 2 * (width + height); }
+double Rectangle::getPerimeter() const { return 2 * (width + height); }
