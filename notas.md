@@ -45,6 +45,23 @@ private:
 };
 ```
 
+No caso do BlackBox, há erros: 
+``` cpp
+Time Time::add(const Time& other) const {
+    int h = hours + other.hours;
+    int m = minutes + other.minutes;
+    int s = seconds + other.seconds;
+
+    s += m / 60;
+    m %= 60;
+    h += s / 60;
+    s %= 60;
+    h %= 24;
+
+    return Time(h, m, s);
+}
+```
+
 
 ## Problema 2
 

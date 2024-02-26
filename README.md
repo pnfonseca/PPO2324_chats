@@ -8,6 +8,7 @@ O código está no seguinte conjunto de pastas:
 |------| --------- |
 |FP02_1_ChatGPT | Resolução do ex. 1 da ficha 2 pelo ChatGPT |
 |FP02_1_Gemini  | Resolução do ex. 1 da ficha 2 pelo Gemini |
+|FP02_1_BlackBox  | Resolução do ex. 1 da ficha 2 pelo BlackBox |
 |FP02_2_ChatGPT | Resolução do ex. 2 da ficha 2 pelo ChatGPT |
 |FP02_2_Gemini  | Resolução do ex. 2 da ficha 2 pelo Gemini |
 
