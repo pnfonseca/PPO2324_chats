@@ -16,9 +16,11 @@ Time Time::add(const Time& other) const {
     int m = minutes + other.minutes;
     int s = seconds + other.seconds;
 
-    s += m / 60;
+    // Tratar dos "carry"
+    m += s / 60;
+    h += m / 60;
+    // Ajustar
     m %= 60;
-    h += s / 60;
     s %= 60;
     h %= 24;
 

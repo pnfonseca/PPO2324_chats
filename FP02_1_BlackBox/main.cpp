@@ -11,12 +11,12 @@ int main() {
     Time t3 = t1.add(t2);
     t3.display();
 
-    t1.setHours(23);
-    t1.setMinutes(59);
+    t1.setHours(0);
+    t1.setMinutes(58);
     t1.setSeconds(59);
     t1.display();
 
-    Time tx(0,2,0); 
+    Time tx(0,1,2); 
     t1 = t1.add(tx);
     t1.display();
 
